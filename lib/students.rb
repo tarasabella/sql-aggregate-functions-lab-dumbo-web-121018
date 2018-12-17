@@ -19,8 +19,8 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "SELECT SUM(tardies) AS tardies_for_all_students FROM students";
-  #SELECT SUM(column_name)
+  "SELECT SUM(tardies) FROM students";
+  #SELECT SUM(column_name) FROM table_name
 end
 
 def average_gpa_for_9th_grade
