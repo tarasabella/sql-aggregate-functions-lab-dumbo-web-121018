@@ -26,3 +26,5 @@ end
 def average_gpa_for_9th_grade
 "SELECT AVG(gpa) FROM students WHERE grade = 9";
 end
+#SELECT AVG(column_name) FROM table_name WHERE use a conditional 
+#takes the average gpa from the student table for only the students in 9th grade 
