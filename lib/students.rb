@@ -2,15 +2,20 @@
 
 def highest_student_gpa
   "SELECT MAX(gpa) FROM students;"
-  #SELECT MAX()
+  #SELECT MAX(column_name) From table_name
+  #to access the highest GPA in the students table 
 end 
 
 def lowest_student_gpa
   "SELECT MIN(gpa) FROM students";
+  #SELECT MIN(column_name) FROM table_name
+  #to access lowest GPA among the students 
 end
 
 def average_student_gpa
   "SELECT AVG(gpa) AS average_student_gpa FROM students";
+  #SELECT AVG(column_name) AS return value name FROM table_name
+  #selects the avg gpa from the student table and renames it as average_student_gpa
 end
 
 def total_tardies_for_all_students
